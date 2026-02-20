@@ -42,6 +42,6 @@ One usability improvement would be to add more input validation. For example, va
 ### API Design
 
 One improvement I would make is to include proper HTTP status codes in all responses. 
-A better approach would be to return appropriate HTTP status codes along with the JSON response. For example, a successful request could return 200, while client errors such as invalid input or failed login attempts could return 400 or 401. Server errors could return 500. 
+A better approach would be to return appropriate HTTP status codes along with the JSON response. For example, a successful request could return 200, while client errors such as invalid input or failed login attempts could return 400 or 401.
 
 ---
